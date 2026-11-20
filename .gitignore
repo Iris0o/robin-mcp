@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Рабочие данные MCP (копии проектов и резервные копии)
+projects/
+backups/
+tmp/
+.tools/
+
+# Файлы ROBIN
+*.bak
+*.robin-project
+*.robin-scenario
+*.robin-impinfo
+*.robin-def
+*.robin-prjmeta
+*.robin-package
+*.robin-used-types
+
+# Локальные настройки и мусор
+.claude/
+*.stackdump
+probe*
+sample*.xml
+roundtrip*
+inspection.txt
+methods.txt
+resources-inspection.txt

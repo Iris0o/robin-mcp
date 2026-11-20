@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "robin-studio": {
+      "command": "python",
+      "args": ["<ПУТЬ_К_РЕПОЗИТОРИЮ>\\robin_mcp.py"],
+      "env": {
+        "ROBIN_STUDIO": "C:\\Program Files\\Robin Platform\\2.0.0\\Studio",
+        "ROBIN_WORKSPACE": "<ПУТЬ_К_РЕПОЗИТОРИЮ>\\projects"
+      }
+    }
+  }
+}
